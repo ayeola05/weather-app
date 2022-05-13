@@ -1,0 +1,20 @@
+#geocoder {
+    z-index: 1;
+    margin: 20px;
+
+}
+
+.mapboxgl-ctrl-geocoder {
+    min-width: 100%;
+}
+body {
+	color: #333333;
+	font-family: Arial;
+	max-width: 650px;
+	margin: 0 auto;
+	padding: 0 16px;
+
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
