@@ -21,7 +21,6 @@ geocoder.on("result", (e) => {
     response
       .json()
       .then((data) => {
-        console.log(data);
         loc.innerText = `${data.location.name}, ${data.location.region}`;
         results.innerText = `${data.current.weather_descriptions[0]}. It is currently ${data.current.temperature} degrees out. It feels like ${data.current.feelslike} degrees out. and the humidity is ${data.current.humidity}%`;
       })
